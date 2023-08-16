@@ -31,7 +31,7 @@ function App() {
     return total !== 0 ? ((good / total) * 100).toFixed(2) : '0';
   };
   const total = good + neutral + bad;
-  const stateNames = ["good", "neutral", "bad"];
+  const stateNames = ['good', 'neutral', 'bad'];
   return (
     <Container>
       <Section title="Please leave feedback">
